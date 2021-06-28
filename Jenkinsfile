@@ -16,7 +16,7 @@ pipeline {
 
             steps {
 
-                sh 'mvn --version'
+                echo 'mvn --version'
                    // bat "mvn test"
 
             }
