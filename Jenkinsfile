@@ -20,7 +20,7 @@ pipeline {
 
             }
         } 
-}
+
         /*stage ('Deployment Stage') {
             steps {
 
