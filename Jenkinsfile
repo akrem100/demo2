@@ -7,7 +7,7 @@ pipeline {
             steps {
                 
 
-                   echo "mvn clean compile"
+                  bat "mvn clean compile"
 
             }
         }*/
@@ -16,7 +16,7 @@ pipeline {
 
             steps {
 
-                bat 'mvn --version'
+                sh 'mvn --version'
                    // bat "mvn test"
 
             }
