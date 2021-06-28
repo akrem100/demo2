@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage ('Compile Stage') {
+    /*    stage ('Compile Stage') {
 
             steps {
                 
@@ -19,9 +19,16 @@ pipeline {
                     bat"mvn test"
 
             }
-        }
+        }*/
 
+stage('build') {
+      cmd_exec('echo "Buils starting..."')
+      cmd_exec('echo "dir /a /b"')
+}
 
+def cmd_exec(command) {
+    return bat(returnStdout: true, script: "${command}").trim()
+}
         /*stage ('Deployment Stage') {
             steps {
 
