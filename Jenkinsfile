@@ -5,22 +5,23 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                bat "mvn --version"
+                
 
-                   // bat "mvn clean compile"
+                   bat "mvn clean compile"
 
             }
         }
 
-  /*      stage ('Testing Stage') {
+        stage ('Testing Stage') {
 
             steps {
 
-                    bat "mvn test"
+                bat "mvn --version"
+                   // bat "mvn test"
 
             }
         }
-*/
+
 
         /*stage ('Deployment Stage') {
             steps {
