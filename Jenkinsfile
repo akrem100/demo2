@@ -22,12 +22,12 @@ pipeline {
         }
 
 
-        stage ('Deployment Stage') {
+        /*stage ('Deployment Stage') {
             steps {
 
                     bat "mvn deploy"
 
             }
-        }
+        }*/
     }
 }
