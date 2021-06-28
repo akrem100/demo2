@@ -64,7 +64,7 @@ String c="http://localhost:8088/categories/ll/9";
     categories.setName("NEWS");
     categories.setQuatite(5);
     categories.setDatec(t);
-    categories.setDatec(null);
+
 String g="http://localhost:8088";
     ResponseEntity<Categories> postResponse = restTemplate.postForEntity(g + "/categories/add", categories, Categories.class);
     assertNotNull(postResponse);

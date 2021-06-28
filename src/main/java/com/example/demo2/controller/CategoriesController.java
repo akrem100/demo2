@@ -46,6 +46,7 @@ private com.example.demo2.repository.categoriesRepository categoriesRepository;
    var cat=mapper.map(c, Categories.class);
     cat.setDatec(new Timestamp(System.currentTimeMillis()));
 
+
     return  categoriesRepository.save(cat);
   }
 
