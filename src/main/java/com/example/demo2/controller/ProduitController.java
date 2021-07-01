@@ -35,7 +35,7 @@ public class ProduitController {
     return  pp.findByIdc_Id(id);
   }
 
-  @GetMapping("/ll/{idc}/editp/{id}")
+  @GetMapping("/ll/editpp/{id}")
   public ResponseEntity<Produit> getproduitById(@PathVariable(value = "id") Long  produitId)
     throws ResourceNotFoundException {
     var  produit =  pp.findById( produitId)
