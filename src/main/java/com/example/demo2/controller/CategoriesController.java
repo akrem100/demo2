@@ -1,5 +1,5 @@
 package com.example.demo2.controller;
-
+import com.example.demo2.conf.Config;
 
 import com.example.demo2.dto.CategoriesDto;
 import com.example.demo2.model.Categories;
