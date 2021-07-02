@@ -1,0 +1,10 @@
+com\example\demo2\dto\CategoriesDto.class
+com\example\demo2\dto\ProduitDto.class
+com\example\demo2\repository\produitRepository.class
+com\example\demo2\controller\CategoriesController.class
+com\example\demo2\model\Categories.class
+com\example\demo2\repository\categoriesRepository.class
+com\example\demo2\conf\Config.class
+com\example\demo2\Demo2Application.class
+com\example\demo2\controller\ProduitController.class
+com\example\demo2\model\Produit.class

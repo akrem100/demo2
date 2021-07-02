@@ -1,6 +1,5 @@
 package com.example.demo2.model;
 
-import com.example.demo2.model.Categories;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
