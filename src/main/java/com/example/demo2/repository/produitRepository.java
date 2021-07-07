@@ -11,5 +11,5 @@ import java.util.List;
 public interface produitRepository extends JpaRepository<Produit, Long> {
   List<Produit> findByIdc_Id(long id);
   List<Produit> findByName(String id);
-
+//date
 }
